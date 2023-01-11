@@ -1,8 +1,9 @@
 XTerm.termName: xterm-256color
 XTerm.vt100.locale: false
 XTerm.vt100.utf8: true
-XTerm.vt100.faceName: xft:Terminus:size=12:autohint=true,xft:WenQuanYi WenQuanYi Bitmap Song:size=12:antialias=false
-XTerm.vt100.faceSize: 10
+XTerm.vt100.faceName: xft:Terminus:size=12
+XTerm.vt100.faceNameDoublesize: xft:WenQuanYi WenQuanYi Bitmap Song:size=10
+XTerm.vt100.scaleHeight: 1.1
 XTerm.vt100.background: black
 XTerm.vt100.foreground: white
 XTerm.vt100.metaSendsEscape: true
