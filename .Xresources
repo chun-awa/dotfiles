@@ -1,0 +1,30 @@
+XTerm.termName: xterm-256color
+XTerm.vt100.locale: false
+XTerm.vt100.utf8: true
+XTerm.vt100.faceName: xft:Terminus:size=12:autohint=true,xft:WenQuanYi WenQuanYi Bitmap Song:size=12:antialias=false
+XTerm.vt100.faceSize: 10
+XTerm.vt100.background: black
+XTerm.vt100.foreground: white
+XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.geometry: 96x30
+
+XTerm.vt100.color0: rgb:00/00/00
+XTerm.vt100.color1: rgb:cc/04/03
+XTerm.vt100.color2: rgb:19/cb/00
+XTerm.vt100.color3: rgb:ce/cb/00
+XTerm.vt100.color4: rgb:0d/73/cc
+XTerm.vt100.color5: rgb:cb/1e/d1
+XTerm.vt100.color6: rgb:0d/cd/cd
+XTerm.vt100.color7: rgb:dd/dd/dd
+XTerm.vt100.color8: rgb:76/76/76
+XTerm.vt100.color9: rgb:f2/20/1f
+XTerm.vt100.color10: rgb:23/fd/00
+XTerm.vt100.color11: rgb:ff/fd/00
+XTerm.vt100.color12: rgb:1a/8f/ff
+XTerm.vt100.color13: rgb:fd/28/ff
+XTerm.vt100.color14: rgb:14/ff/ff
+XTerm.vt100.color15: rgb:ff/ff/ff
+
+XTerm.vt100.translations: #override Ctrl Shift <Key>F11: fullscreen()
+XTerm.vt100.translations: #override Ctrl Shift <Key>C: copy-selection(CLIPBOARD)
+XTerm.vt100.translations: #override Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
