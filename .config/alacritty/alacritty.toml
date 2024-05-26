@@ -1,0 +1,30 @@
+[colors.bright]
+black = "0x767676"
+blue = "0x1A8FFF"
+cyan = "0x14FFFF"
+green = "0x23FD00"
+magenta = "0xFD28FF"
+red = "0xF2201F"
+white = "0xFFFFFF"
+yellow = "0xFFFD00"
+
+[colors.normal]
+black = "0x000000"
+blue = "0x0D73CC"
+cyan = "0x0DCDCD"
+green = "0x19CB00"
+magenta = "0xCB1ED1"
+red = "0xCC0403"
+white = "0xDDDDDD"
+yellow = "0xCECB00"
+
+[colors.primary]
+background = "0x000000"
+foreground = "0xFFFFFF"
+
+[font]
+size = 8
+
+[font.normal]
+family = "Terminus"
+style = "Regular"
