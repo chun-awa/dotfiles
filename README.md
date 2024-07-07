@@ -1,4 +1,4 @@
 # dotfiles
 ## Screenshots
-LMFS Workstaion #2
+LMFS Workstation #2
 ![Windows 10](/screenshots/lmfsws.png)
