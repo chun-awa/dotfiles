@@ -1,4 +1,4 @@
 # dotfiles
 ## Screenshots
-LMFS Workstation #2
+LMFS Workstation with fastfetch running
 ![Windows 10](/screenshots/lmfsws.png)
