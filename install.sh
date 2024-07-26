@@ -13,8 +13,8 @@ git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTO
 cp .p10k.zsh ~
 
 echo "Installing tmux configuration"
-sudo apt update
-sudo apt install -y tmux
+sudo apt-get update
+sudo env DEBIAN_FRONTEND=noninteractive apt-get install -y tmux
 git clone --depth=1 https://github.com/gpakosz/.tmux ~/.tmux
 ln -sf ~/.tmux/.tmux.conf ~/.tmux.conf
 cp .tmux.conf.local ~
