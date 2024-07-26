@@ -3,8 +3,9 @@
 set -e
 
 echo "Installing ohmyzsh"
-sudo apt install zsh
-curl -L https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash - --unattended
+gti clone --depth=1 https://github.com/ohmyzsh/ohmyzsh /tmp/ohmyzsh
+/tmp/ohmyzsh/tools/install.sh --unattended
+rm -rf /tmp/ohmyzsh
 sudo chsh -s /usr/bin/zsh $USERNAME
 cp .zshrc ~
 
