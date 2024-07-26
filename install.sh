@@ -2,6 +2,8 @@
 # Used for Github Codespaces
 set -e
 
+[ $UID -eq 0 ] && exec sudo -u codespace $0
+
 echo "Setting up zsh"
 sudo chsh -s /usr/bin/zsh $USERNAME
 cp .zshrc ~
