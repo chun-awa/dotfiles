@@ -3,7 +3,7 @@
 set -e
 
 echo "Installing ohmyzsh"
-gti clone --depth=1 https://github.com/ohmyzsh/ohmyzsh /tmp/ohmyzsh
+git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh /tmp/ohmyzsh
 /tmp/ohmyzsh/tools/install.sh --unattended
 rm -rf /tmp/ohmyzsh
 sudo chsh -s /usr/bin/zsh $USERNAME
