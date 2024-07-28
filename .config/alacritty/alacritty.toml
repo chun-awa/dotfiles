@@ -23,8 +23,11 @@ background = "0x000000"
 foreground = "0xFFFFFF"
 
 [font]
-size = 8
+size = 10
 
 [font.normal]
 family = "Terminus"
 style = "Regular"
+
+[env]
+TERM = "xterm-256color"
