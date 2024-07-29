@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e 
+
+[ -f ~/Pictures/background.ppm ] || magick ~/Pictures/background.png -resize $(fbset -s|grep geometry|awk '{print $2 "x" $3 "!"}') -modulate 50 ~/Pictures/background.ppm
+busybox fbsplash -cs ~/Pictures/background.ppm
+FBTERM_BACKGROUND_IMAGE=1 fbterm env TERM=fbterm tmux
