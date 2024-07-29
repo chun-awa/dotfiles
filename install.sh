@@ -14,7 +14,7 @@ cp .p10k.zsh ~
 
 echo "Installing tmux configuration"
 sudo apt-get update
-sudo env DEBIAN_FRONTEND=noninteractive apt-get install -y tmux
+sudo env DEBIAN_FRONTEND=noninteractive apt-get install -y tmux perl
 git clone --depth=1 https://github.com/gpakosz/.tmux ~/.tmux
 ln -sf ~/.tmux/.tmux.conf ~/.tmux.conf
 cp .tmux.conf.local ~
