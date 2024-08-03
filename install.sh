@@ -7,14 +7,18 @@ set -e
 echo "Setting up zsh"
 sudo chsh -s /usr/bin/zsh $(whoami)
 cp .zshrc ~
+echo 'export SHELL=/usr/bin/zsh' >> ~/.zshrc
+
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 cp .p10k.zsh ~
 
-echo "Installing tmux configuration"
+echo "Installing tmux"
 sudo apt-get update
 sudo env DEBIAN_FRONTEND=noninteractive apt-get install -y tmux perl
+
+echo "Setting up tmux"
 git clone --depth=1 https://github.com/gpakosz/.tmux ~/.tmux
 ln -sf ~/.tmux/.tmux.conf ~/.tmux.conf
 cp .tmux.conf.local ~
