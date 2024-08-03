@@ -1,4 +1,7 @@
 # dotfiles
 ## Screenshots
-LMFS Workstation with fastfetch and alacritty running
+i3
+![](screenshots/i3.png)
+
+Windows 10 with fastfetch and alacritty running
 ![](screenshots/lmfsws.png)
