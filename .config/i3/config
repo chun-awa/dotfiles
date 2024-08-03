@@ -70,5 +70,4 @@ bindsym Print exec --no-startup-id flameshot full -c
 bindsym ctrl+$mod+a exec --no-startup-id flameshot gui
 bindsym $mod+Tab exec --no-startup-id rofi -show window
 bindsym $super+r exec --no-startup-id rofi -show drun
-bindsym $mod+Return exec kitty
-bindsym $super+c exec --no-startup-id chromium
+bindsym $mod+Return exec alacritty
