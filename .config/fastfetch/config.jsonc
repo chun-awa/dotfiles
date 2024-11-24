@@ -1,5 +1,9 @@
 {
     "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "file-raw",
+        "source": "logo.txt"
+    },
     "modules": [
         "title",
         "separator",
@@ -30,7 +34,7 @@
         "swap",
         {
             "type": "disk",
-            "showSubvolumes" : true
+            "showSubvolumes": true
         },
         "battery",
         "player",
@@ -38,7 +42,6 @@
         "datetime",
         "locale",
         "users",
-        "sound",
         "physicaldisk",
         "break",
         "colors"
