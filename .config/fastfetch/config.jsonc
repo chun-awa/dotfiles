@@ -4,39 +4,87 @@
         "type": "file-raw",
         "source": "~/.config/fastfetch/logo.txt"
     },
+    "display": {
+        "separator": " "
+    },
     "modules": [
-        "title",
-        "separator",
-        "os",
-        "host",
-        "kernel",
-        "uptime",
-        "loadavg",
-        "packages",
-        "shell",
+        {
+            "type": "title",
+            "key": "",
+            "format": "{1}@{2}"
+        },
+        {
+            "type": "os",
+            "key": "",
+        },
+        {
+            "type": "kernel",
+            "key": "",
+            "format": "{1} {2}"
+        },
+        {
+            "type": "uptime",
+            "key": "",
+        },
+        {
+            "type": "loadavg",
+            "key": "󰓅",
+        },
+        {
+          "type": "packages",
+          "key": "󰏖",
+        },
+        {
+            "type": "shell",
+            "key": "",
+        },
         "display",
         "de",
         "wm",
         "wmtheme",
         "theme",
         "icons",
-        "font",
-        "terminal",
-        "terminalfont",
+        {
+          "type": "font",
+          "key": "",
+        },
+        {
+            "type": "terminal",
+            "key": "",
+        },
+        {
+          "type": "terminalfont",
+          "key": "",
+        },
         {
             "type": "cpu",
-            "showPeCoreCount": true
+            "key": "",
+            "showPeCoreCount": true,
+            "temp": true
         },
         "gpu",
-        "memory",
-        "swap",
+        {
+          "type": "memory",
+          "key": "",
+        },
+        {
+            "type": "swap",
+            "key": "󰓡",
+        },
         {
             "type": "disk",
+            "key": "",
             "showSubvolumes": true
         },
-        "battery",
-        "users",
-        "physicaldisk",
+        {
+            "type": "physicaldisk",
+            "key": "󰋊",
+            "temp": true
+        },
+        {
+          "type": "battery",
+          "key": "󰁹",
+        },
         "break",
         "colors"
     ]
