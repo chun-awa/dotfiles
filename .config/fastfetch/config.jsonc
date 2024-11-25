@@ -55,49 +55,49 @@
         },
         {
             "type": "disk",
-            "keyColor": "38;2;64;160;43",
+            "keyColor": "38;2;223;142;29",
             "showSubvolumes": true
         },
         {
             "type": "physicaldisk",
-            "keyColor": "38;2;64;160;43"
+            "keyColor": "38;2;223;142;29"
         },
         {
             "type": "battery",
-            "keyColor": "38;2;4;165;229"
+            "keyColor": "38;2;64;160;43"
         },
         {
             "type": "display",
-            "keyColor": "38;2;4;165;229"
+            "keyColor": "38;2;64;160;43"
         },
         {
             "type": "terminal",
-            "keyColor": "38;2;137;180;250"
+            "keyColor": "38;2;4;165;229"
         },
         {
             "type": "shell",
-            "keyColor": "38;2;137;180;250"
+            "keyColor": "38;2;4;165;229"
         },
         {
             "type": "de",
-            "keyColor": "38;2;137;180;250"
+            "keyColor": "38;2;4;165;229"
         },
         {
             "type": "wm",
-            "keyColor": "38;2;137;180;250"
+            "keyColor": "38;2;4;165;229"
         },
         {
             "type": "theme",
-            "keyColor": "38;2;137;180;250"
+            "keyColor": "38;2;4;165;229"
         },
         {
             "type": "icons",
-            "keyColor": "38;2;137;180;250",
+            "keyColor": "38;2;4;165;229",
             "keyIcon": "󰀻"
         },
         {
             "type": "font",
-            "keyColor": "38;2;137;180;250"
+            "keyColor": "38;2;4;165;229"
         },
         "break",
         "colors"
