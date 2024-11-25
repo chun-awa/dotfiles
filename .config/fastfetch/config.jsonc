@@ -6,103 +6,98 @@
     },
     "display": {
         "brightColor": false,
+        "key": {
+            "type": "icon"
+        },
         "separator": " "
     },
     "modules": [
-        {
-            "type": "title",
-            "key": "",
-            "format": "{1}@{2}"
-        },
+        "title",
         {
             "type": "os",
-            "key": ""
+            "keyColor": "38;2;210;69;83"
         },
         {
             "type": "kernel",
-            "key": "",
-            "format": "{1} {2}"
+            "keyColor": "38;2;210;69;83"
         },
         {
-            "type": "uptime",
-            "key": ""
+            "type": "packages",
+            "keyColor": "38;2;210;69;83"
         },
         {
             "type": "cpu",
-            "key": "",
+            "keyColor": "38;2;254;100;11",
             "showPeCoreCount": true,
             "temp": true
         },
         {
+            "type": "uptime",
+            "keyColor": "38;2;254;100;11"
+        },
+        {
             "type": "loadavg",
-            "key": "󰓅"
-        },
-        {
-            "type": "memory",
-            "key": ""
-        },
-        {
-            "type": "swap",
-            "key": "󰓡"
-        },
-        {
-            "type": "display",
-            "key": "󰹑"
+            "keyColor": "38;2;254;100;11",
+            "keyIcon": "󰓅"
         },
         {
             "type": "gpu",
-            "key": "󰾲"
+            "keyColor": "38;2;254;100;11"
+        },
+        {
+            "type": "memory",
+            "keyColor": "38;2;223;142;29",
+            "keyIcon": ""
+        },
+        {
+            "type": "swap",
+            "keyColor": "38;2;223;142;29"
         },
         {
             "type": "disk",
-            "key": "",
+            "keyColor": "38;2;64;160;43",
             "showSubvolumes": true
         },
         {
             "type": "physicaldisk",
-            "key": "󰋊",
-            "temp": true
+            "keyColor": "38;2;64;160;43"
         },
         {
             "type": "battery",
-            "key": "󰁹"
+            "keyColor": "38;2;4;165;229"
         },
         {
-            "type": "packages",
-            "key": "󰏖"
+            "type": "display",
+            "keyColor": "38;2;4;165;229"
         },
         {
             "type": "terminal",
-            "key": ""
-        },
-        {
-            "type": "terminalfont",
-            "key": ""
+            "keyColor": "38;2;137;180;250"
         },
         {
             "type": "shell",
-            "key": ""
+            "keyColor": "38;2;137;180;250"
         },
         {
             "type": "de",
-            "key": "󰧨"
+            "keyColor": "38;2;137;180;250"
         },
         {
             "type": "wm",
-            "key": ""
-
+            "keyColor": "38;2;137;180;250"
         },
         {
             "type": "theme",
-            "key": "󰉼"
+            "keyColor": "38;2;137;180;250"
         },
         {
             "type": "icons",
-            "key": ""
+            "keyColor": "38;2;137;180;250",
+            "keyIcon": "󰀻"
         },
         {
             "type": "font",
-            "key": ""
+            "keyColor": "38;2;137;180;250"
         },
         "break",
         "colors"
