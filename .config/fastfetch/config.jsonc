@@ -5,6 +5,7 @@
         "source": "~/.config/fastfetch/logo.txt"
     },
     "display": {
+        "brightColor": false,
         "separator": " "
     },
     "modules": [
@@ -15,7 +16,7 @@
         },
         {
             "type": "os",
-            "key": "",
+            "key": ""
         },
         {
             "type": "kernel",
@@ -24,37 +25,7 @@
         },
         {
             "type": "uptime",
-            "key": "",
-        },
-        {
-            "type": "loadavg",
-            "key": "󰓅",
-        },
-        {
-          "type": "packages",
-          "key": "󰏖",
-        },
-        {
-            "type": "shell",
-            "key": "",
-        },
-        "display",
-        "de",
-        "wm",
-        "wmtheme",
-        "theme",
-        "icons",
-        {
-          "type": "font",
-          "key": "",
-        },
-        {
-            "type": "terminal",
-            "key": "",
-        },
-        {
-          "type": "terminalfont",
-          "key": "",
+            "key": ""
         },
         {
             "type": "cpu",
@@ -62,14 +33,25 @@
             "showPeCoreCount": true,
             "temp": true
         },
-        "gpu",
         {
-          "type": "memory",
-          "key": "",
+            "type": "loadavg",
+            "key": "󰓅"
+        },
+        {
+            "type": "memory",
+            "key": ""
         },
         {
             "type": "swap",
-            "key": "󰓡",
+            "key": "󰓡"
+        },
+        {
+            "type": "display",
+            "key": "󰹑"
+        },
+        {
+            "type": "gpu",
+            "key": "󰾲"
         },
         {
             "type": "disk",
@@ -82,8 +64,45 @@
             "temp": true
         },
         {
-          "type": "battery",
-          "key": "󰁹",
+            "type": "battery",
+            "key": "󰁹"
+        },
+        {
+            "type": "packages",
+            "key": "󰏖"
+        },
+        {
+            "type": "terminal",
+            "key": ""
+        },
+        {
+            "type": "terminalfont",
+            "key": ""
+        },
+        {
+            "type": "shell",
+            "key": ""
+        },
+        {
+            "type": "de",
+            "key": "󰧨"
+        },
+        {
+            "type": "wm",
+            "key": ""
+
+        },
+        {
+            "type": "theme",
+            "key": "󰉼"
+        },
+        {
+            "type": "icons",
+            "key": ""
+        },
+        {
+            "type": "font",
+            "key": ""
         },
         "break",
         "colors"
