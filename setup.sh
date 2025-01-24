@@ -17,3 +17,8 @@ echo "Setting up tmux"
 git clone --depth=1 https://github.com/gpakosz/.tmux ~/.tmux
 ln -sf ~/.tmux/.tmux.conf ~/.tmux.conf
 cp .tmux.conf.local ~
+
+if [[ "${1}" == "--xfce4" ]];then
+  echo "Setting up xfce4"
+  cp -rv .config/xfce4 ~/.config/xfce4
+fi
