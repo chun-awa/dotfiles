@@ -63,7 +63,6 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd
 exec --no-startup-id feh --bg-fill /usr/share/backgrounds/archlinux/mountain.jpg
 exec --no-startup-id polybar top
-exec --no-startup-id polybar bottom
 
 bindsym $mod+Shift+e exec i3-msg exit
 bindsym Print exec --no-startup-id flameshot full -c
