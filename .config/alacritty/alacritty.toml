@@ -23,10 +23,10 @@ background = "0x000000"
 foreground = "0xFFFFFF"
 
 [font]
-size = 10
+size = 10.5
 
 [font.normal]
-family = "Terminus"
+family = "JetBrainsMono NFM"
 style = "Regular"
 
 [env]
