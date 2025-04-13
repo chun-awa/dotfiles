@@ -2,9 +2,10 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 config.font = wezterm.font_with_fallback {
-  'Terminus',
+  'Maple Mono NF CN',
 }
-config.font_size = 12
+config.font_size = 10
+config.freetype_load_target = "Light"
 
 config.enable_tab_bar = false
 config.window_padding = {
