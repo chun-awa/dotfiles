@@ -61,7 +61,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}%{icon} ({time},{power}W)",
+        "format": "{capacity}%{icon} ({time},{power:0.1f}W)",
         "format-time": "{H}h{M}m",
         "format-full": "{capacity}% {icon}",
         "format-charging": "{capacity}% ",
