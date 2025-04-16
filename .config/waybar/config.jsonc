@@ -1,76 +1,75 @@
 // -*- mode: jsonc -*-
 {
     "position": "top",
-    "height": 30, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
-    "spacing": 4, // Gaps between modules (4px)
-    // Choose the order of the modules
+    "height": 28,
+    "spacing": 4,
     "modules-left": [
+        "custom/os-button",
         "wlr/taskbar"
     ],
     "modules-center": [
         "mpris"
     ],
     "modules-right": [
-        "pulseaudio",
         "cpu",
+        "custom/gpu-usage",
         "memory",
-        "temperature",
         "battery",
-        "clock",
-        "tray"
+        "tray",
+        "clock"
     ],
-    "tray": {
-        "spacing": 10
-    },
-    "clock": {
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
-    },
-    "cpu": {
-        "format": "{usage}% ",
+    "custom/os-button": {
+        "format": "",
+        "on-click": "nwg-drawer",
         "tooltip": false
     },
-    "memory": {
-        "format": "{}% "
-    },
-    "temperature": {
-        // "thermal-zone": 2,
-        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 80,
-        // "format-critical": "{temperatureC}°C {icon}",
-        "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
-    },
-    "battery": {
-        "interval": 60,
-        "states": {
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}%{icon} ({time},{power:0.1f}W)",
-        "format-time": "{H}h{M}m",
-        "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-icons": ["", "", "", "", ""]
-    },
-    "pulseaudio": {
-        "scroll-step": 5,
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
-        "format-icons": {
-            "headphone": "",
-            "default": ["", "", ""]
-        },
-        "on-click": "pavucontrol"
+    "wlr/taskbar": {
+        "format": "{icon} {title}",
+        "tooltip-format": "{title}",
+        "on-click": "minimize-raise",
+        "on-click-middle": "close"
     },
     "mpris": {
         "format": " {title} - {artist}",
         "format-paused": "⏸ {title} - {artist}"
+    },
+    "cpu": {
+        "interval": 1,
+        "format": " {usage}% {avg_frequency:0.1f}GHz",
+        "tooltip": false
+    },
+    "memory": {
+        "interval": 2,
+        "format": " {percentage}% 󰓡 {swapPercentage}%"
+    },
+    "custom/gpu-usage": {
+        "exec": "cat /sys/class/hwmon/hwmon*/device/gpu_busy_percent",
+        "format": "󰾲 {}%",
+        "return-type": "",
+        "interval": 1
+    },
+    "battery": {
+        "interval": 1,
+        "full-at": 96,
+        "format": "{icon} {capacity}% ({time},{power:0.1f}W)",
+        "format-time": "{H}h{M}m",
+        "format-full": "{icon} {capacity}%",
+        "format-charging": "{icon} {capacity}%",
+        "format-plugged": "{icon} {capacity}%",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "tray": {
+        "spacing": 10
+    },
+    "clock": {
+        "interval": 1,
+        "format": "{:%H:%M:%S}",
+        "tooltip-format": "{:%Y-%m-%d}"
     }
 }
