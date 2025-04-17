@@ -35,7 +35,7 @@
     },
     "cpu": {
         "interval": 1,
-        "format": " {usage}% {avg_frequency:0.1f}GHz",
+        "format": " {load} 󰓅 {avg_frequency:0.1f}GHz",
         "tooltip": false
     },
     "memory": {
