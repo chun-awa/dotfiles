@@ -11,10 +11,10 @@
         "mpris"
     ],
     "modules-right": [
+        "battery",
         "cpu",
         "custom/gpu-usage",
         "memory",
-        "battery",
         "tray",
         "clock"
     ],
