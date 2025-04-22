@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<labwc_config>
+  <theme>
+    <name>Arc-Clone</name>
+    <cornerRadius>0</cornerRadius>
+    <font name="sans" size="10" />
+  </theme>
+
+  <keyboard>
+    <default />
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ -5%" />
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ +5%" />
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute" command="pactl set-sink-mute @DEFAULT_SINK@ toggle" />
+    </keybind>
+    <keybind key="W-Return">
+      <action name="Execute" command="wezterm" />
+    </keybind>
+    <keybind key="W-r">
+      <action name="Execute">
+	      <command>xfce4-appfinder -c</command>
+      </action>
+    </keybind>
+  </keyboard>
+</labwc_config>
