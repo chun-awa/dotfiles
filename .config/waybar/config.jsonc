@@ -4,7 +4,6 @@
     "height": 28,
     "spacing": 4,
     "modules-left": [
-        "custom/os-button",
         "wlr/taskbar"
     ],
     "modules-center": [
@@ -18,11 +17,6 @@
         "tray",
         "clock"
     ],
-    "custom/os-button": {
-        "format": "",
-        "on-click": "nwg-drawer",
-        "tooltip": false
-    },
     "wlr/taskbar": {
         "format": "{icon} {title}",
         "tooltip-format": "{title}",

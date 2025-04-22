@@ -27,22 +27,14 @@ button:hover {
     box-shadow: inset 0 -3px #ffffff;
 }
 
-#custom-os-button,
-#mpris,
-#cpu,
-#memory,
-#custom-gpu-usage,
-#tray {
-    padding: 0 10px;
-    color: #ffffff;
-}
-
 #battery,
 #cpu,
 #memory,
 #custom-gpu-usage,
 #tray,
 #clock {
+    padding: 0 8px;
+    color: #ffffff;
     border-bottom: 3px solid;
 }
 
