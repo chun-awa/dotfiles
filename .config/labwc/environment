@@ -1,0 +1,6 @@
+XCURSOR_THEME=Bibata-Modern-Classic
+XCURSOR_SIZE=24
+QT_STYLE_OVERRIDE=kvantum
+https_proxy=http://127.0.0.1:7890
+http_proxy=http://127.0.0.1:7890
+all_proxy=http://127.0.0.1:7890

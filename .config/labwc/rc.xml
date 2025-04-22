@@ -26,5 +26,15 @@
 	      <command>xfce4-appfinder -c</command>
       </action>
     </keybind>
+    <keybind key="C-A-a">
+      <action name="Execute">
+	      <command>flameshot gui</command>
+      </action>
+    </keybind>
+    <keybind key="Print">
+      <action name="Execute">
+	      <command>flameshot full -c</command>
+      </action>
+    </keybind>
   </keyboard>
 </labwc_config>
