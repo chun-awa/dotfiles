@@ -2,3 +2,4 @@ waybar &
 swaybg -i ~/Pictures/background.png &
 fcitx5 &
 flameshot &
+copyq &
