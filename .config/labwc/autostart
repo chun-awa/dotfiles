@@ -4,4 +4,4 @@ swaybg -i ~/Pictures/background.png &
 fcitx5 &
 XDG_CURRENT_DESKTOP=sway flameshot &
 copyq &
-mako &
+swaync &
