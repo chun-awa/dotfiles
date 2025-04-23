@@ -4,7 +4,7 @@
   <theme>
     <name>Arc-Clone</name>
     <cornerRadius>0</cornerRadius>
-    <font name="sans" size="10" />
+    <font name="Terminus" size="10" />
   </theme>
 
   <keyboard>
@@ -28,12 +28,12 @@
     </keybind>
     <keybind key="C-A-a">
       <action name="Execute">
-	      <command>flameshot gui</command>
+	      <command>env XDG_CURRENT_DESKTOP=sway flameshot gui</command>
       </action>
     </keybind>
     <keybind key="Print">
       <action name="Execute">
-	      <command>flameshot full -c</command>
+	      <command>env XDG_CURRENT_DESKTOP=sway flameshot full -c</command>
       </action>
     </keybind>
   </keyboard>

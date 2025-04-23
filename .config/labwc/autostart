@@ -1,5 +1,6 @@
 waybar &
 swaybg -i ~/Pictures/background.png &
 fcitx5 &
-flameshot &
+XDG_CURRENT_DESKTOP=sway flameshot &
 copyq &
+mako &
