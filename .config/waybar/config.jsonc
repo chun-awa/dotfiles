@@ -34,7 +34,8 @@
     },
     "memory": {
         "interval": 2,
-        "format": " {percentage}% 󰓡 {swapPercentage}%"
+        "format": " {percentage}% 󰓡 {swapPercentage}%",
+        "on-click": "echo huge | pkexec tee /sys/block/zram0/writeback"
     },
     "custom/gpu-usage": {
         "exec": "cat /sys/class/hwmon/hwmon*/device/gpu_busy_percent",
