@@ -1,3 +1,4 @@
+/usr/lib/hyprpolkitagent/hyprpolkitagent &
 waybar &
 swaybg -i ~/Pictures/background.png &
 fcitx5 &
