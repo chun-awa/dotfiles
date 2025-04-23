@@ -18,7 +18,7 @@
         "clock"
     ],
     "wlr/taskbar": {
-        "format": "{icon} {title}",
+        "format": "{icon}",
         "tooltip-format": "{title}",
         "on-click": "minimize-raise",
         "on-click-middle": "close"
@@ -29,7 +29,7 @@
     },
     "cpu": {
         "interval": 1,
-        "format": " {load} 󰓅 {avg_frequency:0.1f}GHz",
+        "format": " {load}",
         "tooltip": false
     },
     "memory": {
