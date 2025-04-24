@@ -36,5 +36,6 @@
 	      <command>env XDG_CURRENT_DESKTOP=sway flameshot full -c</command>
       </action>
     </keybind>
+    <keybind key="C-A-t"><action name="ToggleKeybinds"/></keybind>
   </keyboard>
 </labwc_config>
