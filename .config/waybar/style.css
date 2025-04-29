@@ -38,12 +38,13 @@ button:hover {
     border-bottom: 3px solid;
 }
 
-#battery {
-    border-bottom-color: orangered;
+#cpu,
+#clock {
+    margin: 0 2px;
 }
 
 #cpu {
-    border-bottom-color: orange;
+    border-bottom-color: orangered;
 }
 
 #custom-gpu-usage {
@@ -52,6 +53,10 @@ button:hover {
 
 #memory {
     border-bottom-color: greenyellow;
+}
+
+#battery {
+    border-bottom-color: white;
 }
 
 #tray {
