@@ -26,6 +26,16 @@
         <command>xfce4-appfinder -c</command>
       </action>
     </keybind>
+    <keybind key="W-e">
+      <action name="Execute">
+        <command>thunar</command>
+      </action>
+    </keybind>
+    <keybind key="W-c">
+      <action name="Execute">
+        <command>brave</command>
+      </action>
+    </keybind>
     <keybind key="C-A-a">
       <action name="Execute">
         <command>env XDG_CURRENT_DESKTOP=sway flameshot gui</command>
