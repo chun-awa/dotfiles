@@ -398,7 +398,6 @@ tmux_conf_urlscan_options="--compact --dedupe"
 # move status line to top
 #set -g status-position top
 
-bind-key -n C-a send-keys C-b
 
 # -- tpm -----------------------------------------------------------------------
 
