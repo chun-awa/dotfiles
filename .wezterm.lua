@@ -2,10 +2,12 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 config.font = wezterm.font_with_fallback {
-  'Maple Mono NF CN',
+  'Terminus',
+  'WenQuanYi WenQuanYi Bitmap Song',
 }
-config.font_size = 10
-config.freetype_load_target = "Light"
+config.freetype_pcf_long_family_names = true
+config.font_size = 12
+config.freetype_load_target = "Mono"
 
 config.enable_tab_bar = false
 config.window_padding = {
@@ -13,6 +15,14 @@ config.window_padding = {
   right = 0,
   top = 0,
   bottom = 0,
+}
+
+config.keys = {
+  {
+    key = 'F11',
+    mods = 'SHIFT|CTRL',
+    action = wezterm.action.ToggleFullScreen,
+  },
 }
 
 config.colors = {
@@ -39,9 +49,23 @@ config.colors = {
       "#14FFFF",
       "#FFFFFF",
     },
+    cursor_bg = 'white',
 }
 
-config.initial_cols = 120
-config.initial_rows = 30
+local mux = wezterm.mux
+wezterm.on("gui-startup", function()
+  local tab, pane, window = mux.spawn_window{}
+  window:gui_window():toggle_fullscreen()
+end)
+
+config.window_background_image = os.getenv("HOME") .. '/Pictures/background_wezterm.png'
+
+config.window_background_image_hsb = {
+  brightness = 0.1,
+}
+
+config.enable_wayland = false
+
+config.audible_bell = "Disabled"
 
 return config
