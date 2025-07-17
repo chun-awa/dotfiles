@@ -11,14 +11,15 @@ $git_commit\
 $git_state\
 $git_status\
 \
-$cmd_duration\
-$jobs\
-$status\
-\
 $shell\
 $character"""
 
-add_newline = true
+right_format = """
+$cmd_duration\
+$jobs\
+$status"""
+
+add_newline = false
 continuation_prompt = '[>](bold subtext0) '
 palette = "catppuccin_mocha"
 
@@ -98,7 +99,7 @@ style = 'fg:yellow'
 format = '[$maybe_int$common_meaning$signal_name]($style) '
 pipestatus_format = '\[$pipestatus\] '
 pipestatus_segment_format = '[$status]($style)'
-style = 'fg:yellow'
+style = 'fg:red'
 map_symbol = false
 pipestatus = true
 disabled = false
