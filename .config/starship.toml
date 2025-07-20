@@ -35,7 +35,7 @@ disabled = false
 
 [directory]
 format = '[$path ]($style)[($read_only)]($read_only_style)'
-style = 'fg:peach italic'
+style = 'fg:peach'
 read_only = '[ro] '
 read_only_style = 'fg:red'
 
@@ -50,7 +50,6 @@ format = '[$hostname]($style) '
 style = 'fg:sapphire'
 ssh_only = false
 
-### VCS
 [git_branch]
 format = '$symbol[$branch ]($style)'
 style = 'fg:maroon'
