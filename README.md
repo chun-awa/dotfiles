@@ -6,8 +6,8 @@ $ cd dotfiles
 $ ./setup.sh
 ```
 ## Screenshots
-i3
+i3(at commit `2a77b03`)
 ![](screenshots/i3.png)
 
-Windows 10 with fastfetch and alacritty running
+Windows 10 with fastfetch running in alacritty(at commit `03c4609`)
 ![](screenshots/lmfsws.png)
