@@ -5,7 +5,8 @@
 ```console
 $ git clone --depth 1 https://github.com/chun-awa/dotfiles
 $ cd dotfiles
-$ ./setup.sh
+$ ./setup.sh # For normal setups
+$ ./setup.sh --xfce4 # Also copys xfce4 configuration
 ```
 
 ## Screenshots
